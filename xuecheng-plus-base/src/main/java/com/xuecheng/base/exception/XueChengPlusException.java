@@ -1,12 +1,11 @@
 package com.xuecheng.base.exception;
 
 /**
- * 自定义异常类
+ * 自定义业务异常
  * @Author Zihao Qin
  * @Date 2023/12/19 11:20
  */
 public class XueChengPlusException extends RuntimeException {
-
     // 异常信息
     private String errMessage;
 
